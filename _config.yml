@@ -2,10 +2,6 @@
 title: Portfolio
 timezone: UTC
 collections:
-  poetry:
-    title: Poetry
-    output: true
-    permalink: "/poetry/:path/"
   portfolio:
     title: Portfolio
     output: true
@@ -16,8 +12,8 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: you@example.com
-description: 'A simple, whitespace, helvetica based portfolio theme.
+email: rebecca.m.bennitt@gmail.com
+description: 'rebecca bennitt's design portfolio
 
 '
 baseurl: 
