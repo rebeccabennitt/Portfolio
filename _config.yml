@@ -18,8 +18,8 @@ description: 'rebecca bennitt's design portfolio
 '
 baseurl: 
 url: 
-twitter_username: twitter_username
-github_username: github_username
+twitter_username: @rebeccabennitt
+github_username: @rebeccabennitt
 markdown: kramdown
 highlighter: pygments
 paginate: 15
