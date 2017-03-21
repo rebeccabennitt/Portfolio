@@ -1,7 +1,7 @@
 ---
-title: Project
+title: The University Florist
 layout: post
-description: a project with a background image
+description: rebuild of existing e-commercd site
 img: "/img/tuf.jpg"
 ---
 ## The University Florist
