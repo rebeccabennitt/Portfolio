@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta charset="UTF-8">
+      <title>Rebecca Bennitt | Designer & Developer</title>
+      <!--google fonts-->
+	  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Oswald" rel="stylesheet">
+      <!--styles-->
+	  <link href="css/materialize.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+       <!--font awesome-->
+	  <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+     </head>
+<body>
+    <nav class="nav-extended indigo lighten">
+      <div class="nav-wrapper container">
+        <a href="index.html" class="brand-logo">Rebecca Bennitt</a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+      <li><a href="about.html">about</a></li>
+        <li><a href="work.html">work</a></li>
+        <li><a href="contact.html">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+     <div class="container contact">
+      <h5>Contact</h5>
+      <h6>Get in touch with me</h6>
+      <hr>
+      <div class="row">
+        <div class="col s12 m6 l6">
+          <div class="row">
+            <form class="col s12" method="POST" action="contact.php">
+              <div class="row">
+                <div class="input-field col s6">
+                  <input name="first_name" id="first_name" type="text" class="validate" required>
+                  <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <input name="last_name" id="last_name" type="text" class="validate" required>
+                  <label for="last_name">Last Name</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input name="email" id="email" type="email" class="validate" required>
+                  <label for="email">E-Mail</label>
+                </div>
+              </div>
+              <textarea name="msg" class="materialize-textarea" placeholder="Your Message" required></textarea>
+              <button class="btn waves-effect waves-light" type="submit" name="action">Submit<i class="mdi-content-send right"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+     </div>
+        <!--FOOTER-->
+       <footer class="page-footer indigo lighten">
+           <div class="container">
+
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">get in touch</h5>
+              </div>
+
+              <div class="row">
+          <div class="col s1"><a href="mailto:rebecca.m.bennitt@gmail.com  target="_blank""><i class="fa fa-envelope-o fa-3x"></i></a>  </div>
+                            <div class="col s1"><a href="https://www.linkedin.com/in/rebecca-bennitt" target="_blank"><i class="fa fa-linkedin  fa-3x"></i></a></div>
+                      <div class="col s1"><a href="https://twitter.com/@rebeccabennitt" target="_blank"><i class="fa fa-twitter fa-3x"></i></a></div>
+                         <div class="col s1"><a href="https://github.com/rebecca-bennitt" target="_blank"><i class="fa fa-github fa-3x"></i></a></div>
+
+                   </div>
+               </div>
+           </div>
+             <div class="divider"></div>
+           <div class="footer-copyright">
+            <div class="container">
+            © 2017 rebecca bennitt
+             </div>
+          </div>
+       </footer>
+       <script>$(".dropdown-button").dropdown();</script>
+        <!--Import jQuery before materialize.js-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/materialize/0.98.0/js/materialize.min.js"></script>
+
+		</body>
+   </html>
